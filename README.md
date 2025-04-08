@@ -63,4 +63,6 @@ To adjust schematic-based plots (especially those dependent on layer colors):
 1. Copy the provided `display.drf` file from this repository.
 2. Replace the `display.drf` in your PDK folder with this one.
 
-> ⚠️ Note: This customization is only tested and validated for the 65nm PDK. It may not work correctly with other PDKs.
+> ⚠️ Note: This customization is only tested and validated for the 65nm PDK. It will not work correctly with other PDKs.
+> It's advised to take a backup from the display.drf file you have before replacing.
+> The file might have display problems in layout. This is not tested.
