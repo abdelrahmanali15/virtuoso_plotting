@@ -5,7 +5,7 @@ This repository customizes the default plotting appearance in Cadence Virtuoso f
 
 ## 📊 Example Plots
 
-*(Add your before/after plot images here for better clarity.)*
+![example image](figures/example1.png)
 
 ## 🛠️ Setup Instructions
 
