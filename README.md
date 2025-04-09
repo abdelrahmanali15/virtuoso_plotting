@@ -9,6 +9,8 @@ This repository customizes the default plotting appearance in Cadence Virtuoso f
 
 or
 - Black background
+![example image2](figures/example2.png)
+
 
 
 ## 🛠️ Setup Instructions
@@ -66,7 +68,7 @@ envSetVal("viva.multiDeltaMarker" "font" 'string "Helvetica [Misc],14,-1,5,75,0,
 To adjust schematic-based plots (especially those dependent on layer colors):
 
 1. Copy the provided `display.drf` file from this repository.
-2. Replace the `display.drf` in your PDK folder with this one.
+2. Replace the `display.drf` in your PDK folder with this one (Take backup of this file first before replacing).
 
 > ⚠️ Note: This customization is only tested and validated for the 65nm PDK. It will not work correctly with other PDKs.
 
@@ -74,3 +76,6 @@ To adjust schematic-based plots (especially those dependent on layer colors):
 
 
 > The file might have display problems in layout. This is not tested.
+
+
+### 3. Restart Cadence Virtuoso
