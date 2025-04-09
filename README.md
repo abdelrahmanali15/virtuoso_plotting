@@ -4,8 +4,12 @@
 This repository customizes the default plotting appearance in Cadence Virtuoso for the 65nm PDK. It improves the visibility and consistency of plots by adjusting colors, fonts, and line styles.
 
 ## 📊 Example Plots
-
+- White background
 ![example image](figures/example1.png)
+
+or
+- Black background
+
 
 ## 🛠️ Setup Instructions
 
@@ -56,6 +60,7 @@ envSetVal("viva.multiDeltaMarker" "font" 'string "Helvetica [Misc],14,-1,5,75,0,
 
 > 💡 This only applies to plots generated from expressions. Plots generated directly from schematics will still use the default PDK settings.
 
+> If you want black plotting background, you can change `envSetVal("viva.rectGraph" "background" 'string "white")` to `envSetVal("viva.rectGraph" "background" 'string "black")`
 ### 2. Update Layer Colors
 
 To adjust schematic-based plots (especially those dependent on layer colors):
@@ -64,5 +69,8 @@ To adjust schematic-based plots (especially those dependent on layer colors):
 2. Replace the `display.drf` in your PDK folder with this one.
 
 > ⚠️ Note: This customization is only tested and validated for the 65nm PDK. It will not work correctly with other PDKs.
+
 > It's advised to take a backup from the display.drf file you have before replacing.
+
+
 > The file might have display problems in layout. This is not tested.
